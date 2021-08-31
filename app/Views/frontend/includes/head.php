@@ -7,7 +7,7 @@
 <title>Computer Vision & Multimedia</title>
 
 <!-- Bootstrap core CSS -->
-<link href="<?= base_url('vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+<link href="<?= base_url('vendor_temp/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
 <!-- Additional CSS Files -->
 <link rel="stylesheet" href="<?= base_url('assets/css/fontawesome.css') ?>">

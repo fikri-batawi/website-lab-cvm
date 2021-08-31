@@ -1,6 +1,6 @@
 <!-- Bootstrap core JavaScript -->
-<script src="<?= base_url('vendor/jquery/jquery.min.js') ?>"></script>
-<script src="<?= base_url('vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?= base_url('vendor_temp/jquery/jquery.min.js') ?>"></script>
+<script src="<?= base_url('vendor_temp/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 
 <script src="<?= base_url('assets/js/isotope.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/owl-carousel.js') ?>"></script>
