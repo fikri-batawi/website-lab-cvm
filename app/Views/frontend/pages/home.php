@@ -3,27 +3,6 @@
   <head>
     <?= $this->include('frontend/includes/head') ?>
   </head>
-
-
-  <style>
-    .cards {
-    display: flex;
-
-    /* Put a card in the next row when previous cards take all width */
-    flex-wrap: wrap;
-
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.cards__item {
-    /* There will be 4 cards per row */
-    flex-basis: 25%;
-
-    padding-left: 8px;
-    padding-right: 8px;
-}
-  </style>
 <body>
   <!-- Header -->
   <?= $this->include('frontend/includes/header') ?>
