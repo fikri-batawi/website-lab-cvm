@@ -113,6 +113,31 @@
   </section>
   <!-- End Visi Misi -->
 
+  <!-- Profile -->
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4> <em>Laboratorium</em> Computer Vision & Multimedia </h4>
+            <p>Laboratorium Computer Vision & Multimedia Universitas Nasional merupakan laboratorium yang memfokuskan diri pada bidang pembelajaran komputer dan pengembangan sistem informasi di Universitas Nasional. Adapun kegiatan yang dapat dilakukan di lingkup laboratorium Komputer Universitas Nasional meliputi kegiatan praktikum, penggunaan ruang laboratorium, penggunaan laboratorium untuk penelitian dan kerjasama penelitian, pengabdian masyarakat, praktik pembelajaran, diskusi, simulasi, pengerjaan skripsi, sertifikasi atau sejenisnya.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Pengenalan Budaya Unas</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=mooM1fKoPOc" class="play"><img src="assets/images/pengenalan-unas.png"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Profile -->
+
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
 
