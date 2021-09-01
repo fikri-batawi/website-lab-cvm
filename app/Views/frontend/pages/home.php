@@ -138,6 +138,51 @@
   </section>
   <!-- End Profile -->
 
+  <!-- Visi Misi -->
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Peraturan Lab</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <ol>
+            <li class="text-light">Mahasiswa melakukan prosedur cuci tangan dengan handsanitizer sebelum memasuki ruang Laboratorium.</li>
+            <li class="text-light">Mahasiswa diwajibkan mengenakan Alat Pelindung Diri untuk keamanan kerja praktikum seperti masker, face shield, sarung tangan, sepatu tertutup (bukan sepatu sandal atau sandal jepit), dan sebagainya.</li>
+            <li class="text-light">
+              Mahasiswa wajib mematuhi protokol kesehatan 3M:
+              <ol style="list-style-type:circle">
+                <li class="text-light">Menjaga jarak</li>
+                <li class="text-light">Mencuci tangan</li>
+                <li class="text-light">Memakai masker</li>
+              </ol>
+            </li>
+            <li class="text-light">Mahasiswa diperkenankan membawa laptop (jika diperlukan) dan tas serta menempatkan pada area yang disediakan.</li>
+            <li class="text-light">Kelalaian penerapan keamanan Praktikum Mata Kuliah akan dikenakan sanksi tidak diperkenankan mengikuti praktikum.</li>
+            <li class="text-light">Praktikum diwajibkan memakai pakaian yang rapih dan sopan.</li>
+            <li class="text-light">Praktikum diperbolehkan masuk apabila telah diizinkan oleh Asisten Laboratorium.</li>
+            <li class="text-light">Praktikum wajib meletakkan tas di loker atau tempat yang telah disediakan.</li>
+            <li class="text-light">Sebelum memulai praktikum, praktikan diwajibkan membawa kelengkapan praktikum (Laporan/Tugas dan Modul Praktikum).</li>
+            <li class="text-light">Praktikan wajib mengisi form absensi di web sesuai dengan jadwal praktikum.</li>
+            <li class="text-light">Praktikan harus menggunakan dan memakai komputer atau alat lainnya sesuai dengan prosedur yang benar.</li>
+            <li class="text-light">Apabila terdapat kendala pada alat atau komputer laboratorium wajib melapor pada Asisten Laboratorium yang berjaga.</li>
+            <li class="text-light">Dilarang mengganggu praktikan lainnya ketika praktikum berlangsung.</li>
+            <li class="text-light">Dilarang membuat keributan di dalam laboratorium.</li>
+            <li class="text-light">Dilarang membawa senjata tajam, senjata api, dan sejenisnya.</li>
+            <li class="text-light">Mahasiswa tidak diperkenankan membawa makanan dan/atau minuman pada ruang kerja praktikum (Laboratorium).</li>
+            <li class="text-light">Dilarang merokok di dalam laboratorium.</li>
+            <li class="text-light">Dilarang membawa, memakai, ataupun mengedarkan narkoba/sejenisnya.</li>
+            <li class="text-light">Laporan/tugas praktikum dibuat sesuai dengan prosedur yang dianjurkan oleh dosen pengampu.</li>
+            <li class="text-light">Toleransi keterlambatan maksimal 15 menit, apabila lebih dari itu maka mahasiswa yang bersangkutan tidak diperkenankan masuk laboratorium.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Visi Misi -->
+
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
 
