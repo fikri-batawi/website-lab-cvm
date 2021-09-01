@@ -1,6 +1,6 @@
 <header class="main-header clearfix" role="header">
   <div class="logo">
-    <a href="<?= base_url('/') ?>"><em>Grad</em> School</a>
+    <a href="<?= base_url('/') ?>"><em>CVM</em></a>
   </div>
   <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
   <nav id="menu" class="main-nav">
