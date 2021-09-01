@@ -4,12 +4,32 @@
     <?= $this->include('frontend/includes/head') ?>
   </head>
 
+
+  <style>
+    .cards {
+    display: flex;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.cards__item {
+    /* There will be 4 cards per row */
+    flex-basis: 25%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+  </style>
 <body>
   <!-- Header -->
   <?= $this->include('frontend/includes/header') ?>
 
   <!-- Hero -->
-  <section class="section main-banner" id="top" data-section="section1">
+  <section class="section main-banner" id="top" data-section="hero">
     <video autoplay muted loop id="bg-video">
       <source src="assets/images/course-video.mp4" type="video/mp4" />
     </video>
@@ -75,12 +95,12 @@
   <!-- End Feature -->
 
   <!-- Visi Misi -->
-  <section class="section why-us" data-section="section2">
+  <section class="section why-us" data-section="visi-misi">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Visi & Misi</h2>
+            <h2>Vision & Mission</h2>
           </div>
         </div>
         <div class="col-md-12">
@@ -114,7 +134,7 @@
   <!-- End Visi Misi -->
 
   <!-- Profile -->
-  <section class="section video" data-section="section5">
+  <section class="section video" data-section="profile">
     <div class="container">
       <div class="row">
         <div class="col-md-6 align-self-center">
@@ -138,13 +158,13 @@
   </section>
   <!-- End Profile -->
 
-  <!-- Visi Misi -->
-  <section class="section why-us" data-section="section2">
+  <!-- Peraturan Lab -->
+  <section class="section why-us" data-section="peraturan-lab">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Peraturan Lab</h2>
+            <h2>Rules of Lab</h2>
           </div>
         </div>
         <div class="col-md-12">
@@ -181,7 +201,31 @@
       </div>
     </div>
   </section>
-  <!-- End Visi Misi -->
+  <!-- End Peraturan Lab -->
+
+  <!-- Gallery -->
+  <section class="section video" data-section="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-light text-center mb-3">Gallery</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+      </div>
+      <div class="main-button text-center mt-5">
+        <div class="scroll-to-section"><a href="#section2">View More</a></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
 
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
