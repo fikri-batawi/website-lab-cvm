@@ -14,3 +14,4 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/templatemo-grad-school.css') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/css/owl.css') ?>">
 <link rel="stylesheet" href="<?= base_url('assets/css/lightbox.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/css-layout.css') ?>">

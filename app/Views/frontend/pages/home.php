@@ -74,6 +74,45 @@
   </section>
   <!-- End Feature -->
 
+  <!-- Visi Misi -->
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Visi & Misi</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="zigzag-timeline__item">
+            <!-- Milestone -->
+            <div className="zigzag-timeline__milestone">
+              <h2 class="text-light">Visi</h2>
+            </div>
+            <!-- Content -->
+            <h6 class="text-light font-weight-normal">Menjadi laboratorium komputer yang unggul dalam Pengembangan Ilmu Pengetahuan di bidang Computer Vision & Multimedia, serta menjadi unit pendukung kegiatan yang handal bagi unit kerja lain di lingkungan Universitas Nasional khususnya Fakultas Teknologi Komunikasi & Informatika.</h6>
+          </div>
+          <div class="zigzag-timeline__item">
+            <!-- Milestone -->
+            <div className="zigzag-timeline__milestone">
+              <h2 class="text-light"> Misi </h2>
+            </div>
+            <!-- Content -->
+            <ol>
+              <li class="text-light">Meningkatkan kualitas sumber daya insani yang berpengetahuan, berkeahlian, dan berbudaya di bidang Computer Vision & Multimedia.</li>
+              <li class="text-light">Meningkatkan sinergi keahlian bidang komputer dengan bidang keahlian lainnya.</li>
+              <li class="text-light">Meningkatkan kegiatan layanan bidang komputer yang bermanfaat bagi mahasiswa.</li>
+              <li class="text-light">Meningkatkan kualitas dan produktivitas riset bidang Computer Vision & Multimedia yang inovatif.</li>
+              <li class="text-light">Meningkatkan kualitas dan produktivitas teknologi terapan bidang komputer yang bernilai ekonomis.</li>
+              <li class="text-light">Menghasilkan produk penelitian di bidang Computer Vision & Multimedia</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Visi Misi -->
+
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
 
