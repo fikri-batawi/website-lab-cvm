@@ -12,7 +12,7 @@
           <li><a class="external" href="<?= base_url('/personality') ?>">Personality Test</a></li>
         </ul>
       </li>
-      <li><a class="external" href="#" >About Us</a></li>
+      <li><a class="external" href="<?= base_url('/about') ?>" >About Us</a></li>
     </ul>
   </nav>
 </header>

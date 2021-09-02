@@ -37,6 +37,7 @@ $routes->group('personality', function($routes){
 	$routes->get('/', 'frontend\PersonalityTestController::index');
 	$routes->get('question', 'frontend\PersonalityTestController::getQuestion');
 });
+$routes->get('/about','frontend\AboutUsController::about');
 
 /*
  * --------------------------------------------------------------------
