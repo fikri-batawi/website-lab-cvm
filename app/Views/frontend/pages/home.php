@@ -206,6 +206,50 @@
   </section>
   <!-- End Gallery -->
 
+  <!-- Activity -->
+   <section class="section video" data-section="Activity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-light text-center mb-3">Activity</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+      </div>
+      <div class="main-button text-center mt-5">
+    </div>
+  <!-- End Activity -->
+
+  <!-- Our Team -->
+   <section class="section video" data-section ="Activity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-light text-center mb-3">Our Team</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+        </div>
+      </div>
+      <div class="main-button text-center mt-5">
+        <div class="scroll-to-section"><a href="#section2">View More</a></div>
+      </div>
+    </div>
+  <!-- Our Team  -->
+
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
 
