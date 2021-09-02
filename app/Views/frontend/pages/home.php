@@ -200,7 +200,7 @@
         </div>
       </div>
       <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="#section2">View More</a></div>
+        <div class="scroll-to-section"><a href="/index">View More</a></div>
       </div>
     </div>
   </section>
@@ -228,30 +228,55 @@
   <!-- End Activity -->
 
   <!-- Our Team -->
-   <section class="section video" data-section ="Activity">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-light text-center mb-3">Our Team</h2>
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="#section2">View More</a></div>
-      </div>
-    </div>
-  <!-- Our Team  -->
+  <section class="team text-center py-5">
+   <div class="container">
+     <div class="header my-5">
+       <h1>Meet our Team </h1>
+       <p class="text-muted">Meet and Greet our Team Members</p>
+     </div>
+     <div class="row">
+       <div class="col-md-6 col-lg-3">
+         <div class="img-block mb-5">
+           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+           <div class="content mt-2">
+             <h4>Zain Knob</h4>
+             <p class="text-muted">Mechanical Engineer</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-lg-3 ">
+         <div class="img-block mb-5">
+           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+           <div class="content mt-2">
+             <h4>Syndia Lee</h4>
+             <p class="text-muted">Software Engineer</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-lg-3">
+         <div class="img-block mb-5">
+           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+           <div class="content mt-2">
+             <h4>Noel Flantier</h4>
+             <p class="text-muted">Joomla Specialist</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-lg-3">
+         <div class="img-block mb-5">
+           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+           <div class="content mt-2">
+             <h4>Bobby Doe</h4>
+             <p class="text-muted">Street Artist</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+  <!-- END Our Team  -->
 
-  <!-- Footer -->
-  <?= $this->include('frontend/includes/footer') ?>
+  
 
   <!-- Scripts -->
   <?= $this->include('frontend/includes/js') ?>
