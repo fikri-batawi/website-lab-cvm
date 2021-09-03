@@ -80,7 +80,7 @@
         <div class="col-md-12">
           <div class="section-heading">
             <h2>Vision & Mission</h2>
-          </div>git
+          </div>
         </div>
         <div class="col-md-12">
           <div class="zigzag-timeline__item">
@@ -122,7 +122,7 @@
             <p>Laboratorium Computer Vision & Multimedia Universitas Nasional merupakan laboratorium yang memfokuskan diri pada bidang pembelajaran komputer dan pengembangan sistem informasi di Universitas Nasional. Adapun kegiatan yang dapat dilakukan di lingkup laboratorium Komputer Universitas Nasional meliputi kegiatan praktikum, penggunaan ruang laboratorium, penggunaan laboratorium untuk penelitian dan kerjasama penelitian, pengabdian masyarakat, praktik pembelajaran, diskusi, simulasi, pengerjaan skripsi, sertifikasi atau sejenisnya.</p>
           </div>
           <div class="main-button text-center mt-5">
-            <div class="scroll-to-section"><a href="../about_us.php">View More</a></div>
+            <div class="scroll-to-section"><a href="">View More</a></div>
           </div>
         </div>
         
