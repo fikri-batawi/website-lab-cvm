@@ -103,7 +103,7 @@
               <li class="text-light">Meningkatkan kegiatan layanan bidang komputer yang bermanfaat bagi mahasiswa.</li>
               <li class="text-light">Meningkatkan kualitas dan produktivitas riset bidang Computer Vision & Multimedia yang inovatif.</li>
               <li class="text-light">Meningkatkan kualitas dan produktivitas teknologi terapan bidang komputer yang bernilai ekonomis.</li>
-              <li class="text-light">Menghasilkan produk penelitian di bidang Computer Vision & Multimedia</li>
+              <li class="text-light">Menghasilkan produk penelitian dgit pisi bidang Computer Vision & Multimedia</li>
             </ol>
           </div>
         </div>
@@ -121,7 +121,11 @@
             <h4> <em>Laboratorium</em> Computer Vision & Multimedia </h4>
             <p>Laboratorium Computer Vision & Multimedia Universitas Nasional merupakan laboratorium yang memfokuskan diri pada bidang pembelajaran komputer dan pengembangan sistem informasi di Universitas Nasional. Adapun kegiatan yang dapat dilakukan di lingkup laboratorium Komputer Universitas Nasional meliputi kegiatan praktikum, penggunaan ruang laboratorium, penggunaan laboratorium untuk penelitian dan kerjasama penelitian, pengabdian masyarakat, praktik pembelajaran, diskusi, simulasi, pengerjaan skripsi, sertifikasi atau sejenisnya.</p>
           </div>
+          <div class="main-button text-center mt-5">
+            <div class="scroll-to-section"><a href="">View More</a></div>
+          </div>
         </div>
+        
         <div class="col-md-6">
           <article class="video-item">
             <div class="video-caption">
