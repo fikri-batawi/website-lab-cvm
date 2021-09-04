@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?= $this->include('frontend/includes/head') ?>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ourteam.css">
   </head>
 <body>
   <!-- Header -->
@@ -200,7 +201,7 @@
         </div>
       </div>
       <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="/index">View More</a></div>
+        <div class="scroll-to-section"><a href="frontend/pages/gallery/index">View More</a></div>
       </div>
     </div>
   </section>
@@ -228,55 +229,84 @@
   <!-- End Activity -->
 
   <!-- Our Team -->
-  <section class="team text-center py-5">
-   <div class="container">
-     <div class="header my-5">
-       <h1>Meet our Team </h1>
-       <p class="text-muted">Meet and Greet our Team Members</p>
+  <section class="team-section">
+     <div class="container">
+         <div class="row">
+             <div class="section-title">
+                 <h1>Our Team</h1>
+                 <p>introduce our team as follows.</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="team-items">
+                  <div class="item">
+                      <img src="assets/images/team-1.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Dimas Jayadi</h5>
+                               <p>Coordinator</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/team-2.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Muhammad Fikri</h5>
+                               <p>IT Support</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/team-3.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Safira Maulidina</h5>
+                               <p>Schedule</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/team-4.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Yolanda Nur Octavia</h5>
+                               <p>Secretary</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+             </div>
+         </div>
      </div>
-     <div class="row">
-       <div class="col-md-6 col-lg-3">
-         <div class="img-block mb-5">
-           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
-           <div class="content mt-2">
-             <h4>Zain Knob</h4>
-             <p class="text-muted">Mechanical Engineer</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-6 col-lg-3 ">
-         <div class="img-block mb-5">
-           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
-           <div class="content mt-2">
-             <h4>Syndia Lee</h4>
-             <p class="text-muted">Software Engineer</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-6 col-lg-3">
-         <div class="img-block mb-5">
-           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
-           <div class="content mt-2">
-             <h4>Noel Flantier</h4>
-             <p class="text-muted">Joomla Specialist</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-6 col-lg-3">
-         <div class="img-block mb-5">
-           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
-           <div class="content mt-2">
-             <h4>Bobby Doe</h4>
-             <p class="text-muted">Street Artist</p>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
   <!-- END Our Team  -->
 
-  
+
+<!-- Footer -->
+<br><?= $this->include('frontend/includes/footer') ?></br>
 
   <!-- Scripts -->
   <?= $this->include('frontend/includes/js') ?>

@@ -19,27 +19,27 @@
 
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+        <img class="img-fluid img-thumbnail" src="assets/images/courses-01.jpg" alt="">
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+        <img class="img-fluid img-thumbnail" src="assets/images/courses-02.jpg" alt="">
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+        <img class="img-fluid img-thumbnail" src="assets/images/courses-03.jpg" alt="">
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+        <img class="img-fluid img-thumbnail" src="assets/images/courses-04.jpg" alt="">
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+        <img class="img-fluid img-thumbnail" src="assets/images/courses-05.jpg" alt="">
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-6">
