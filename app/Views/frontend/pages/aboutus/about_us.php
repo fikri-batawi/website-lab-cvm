@@ -41,17 +41,17 @@
             <h2>Structure Laboratorium Computer Vision & Multimedia </h2>
           </div>          
             <!-- Content -->
-            <img src="assets/images/nurhayati.jpg" alt="">
+            <img src="<?= base_url('assets/images/structure/~`nurhayati.jpg') ?>" alt="">
             <!-- Sub items -->               
             <ul>
                 <li>
                     <!-- Content -->
-                    <img src="assets/images/dimas.jpg" alt="">
+                    <img src="<?= base_url('assets/images/structure/dimas.jpg') ?>" alt="">
                     <!-- Sub items -->
                     <ul>
-                        <li><img src="assets/images/safira.jpg" alt=""></li>
-                        <li><img src="assets/images/yolanda.jpg" alt=""></li>
-                        <li><img src="assets/images/fikri.jpg" alt=""></li>
+                        <li><img src="<?= base_url('assets/images/structure/safira.jpg') ?>" alt=""></li>
+                        <li><img src="<?= base_url('assets/images/structure/yolanda.jpg') ?>" alt=""></li>
+                        <li><img src="<?= base_url('assets/images/structure/fikri.jpg') ?>" alt=""></li>
                     </ul>
                 </li>
             </ul>  
