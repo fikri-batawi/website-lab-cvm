@@ -3,6 +3,7 @@
   <head>
     <?= $this->include('frontend/includes/head') ?>
     <link rel="stylesheet" type="text/css" href="/assets/css/ourteam.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/activity.css">
   </head>
 <body>
   <!-- Header -->
@@ -205,7 +206,7 @@
         </div>
       </div>
       <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="frontend/pages/gallery/index">View More</a></div>
+        <div class="scroll-to-section"><a href="/index">View More</a></div>
       </div>
     </div>
   </section>
@@ -216,20 +217,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-light text-center mb-3">Activity</h2>
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="main-button text-center mt-5">
-    </div>
+        <h2 class="text-light text-center mb-3">Activity</h2>
+        <div id="slider">
+	<div id="slide-holder">
+	  	<div class="slide"><img src="assets/images/courses-01.jpg" alt="" /></div>
+	    <div class="slide"><img src="assets/images/courses-02.jpg" alt="" /></div>
+	    <div class="slide"><img src="assets/images/courses-03.jpg" alt="" /></div>
+	</div>
+</div>
   <!-- End Activity -->
 
   <!-- Our Team -->
@@ -244,7 +239,7 @@
          <div class="row">
              <div class="team-items">
                   <div class="item">
-                      <img src="assets/images/team-1.jpg" alt="team" />
+                      <img src="assets/images/dimas.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Dimas Jayadi</h5>
@@ -259,7 +254,7 @@
                       </div>
                   </div>
                   <div class="item">
-                      <img src="assets/images/team-2.jpg" alt="team" />
+                      <img src="assets/images/fikri.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Muhammad Fikri</h5>
@@ -289,7 +284,7 @@
                       </div>
                   </div>
                   <div class="item">
-                      <img src="assets/images/team-4.jpg" alt="team" />
+                      <img src="assets/images/yolanda.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Yolanda Nur Octavia</h5>
