@@ -16,67 +16,35 @@
   <hr class="mt-5 mb-5 ">
 
   <div class="row text-center text-lg-start">
+    <!-- Maintenance -->
+    <?php for($i=1; $i<=2; $i++) : ?>
+      <div class="col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="<?= base_url('assets/images/kegiatan/maintenance/'.$i.'.jpg') ?>" alt="maintenance">
+        </a>
+      </div>
+    <?php endfor; ?>
+    <!-- End Maintenance -->
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="assets/images/courses-01.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="assets/images/courses-02.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="assets/images/courses-03.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="assets/images/courses-04.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="assets/images/courses-05.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
-      </a>
-    </div>
+    <!-- PLTI -->
+    <?php for($i=1; $i<=3; $i++) : ?>
+      <div class="col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="<?= base_url('assets/images/kegiatan/PLTI/'.$i.'.jpg') ?>" alt="PLTI">
+        </a>
+      </div>
+    <?php endfor; ?>
+    <!-- End PLTI -->
+
+    <!-- test-aslab-19 -->
+    <?php for($i=1; $i<=3; $i++) : ?>
+      <div class="col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="<?= base_url('assets/images/kegiatan/test-aslab-19/'.$i.'.jpg') ?>" alt="test-aslab-19">
+        </a>
+      </div>
+    <?php endfor; ?>
+    <!-- End test-aslab-19 -->
   </div>
 
 </div>

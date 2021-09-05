@@ -3,7 +3,7 @@
   <head>
     <?= $this->include('frontend/includes/head') ?>
     <link rel="stylesheet" type="text/css" href="/assets/css/ourteam.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/activity.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/activity.css"> -->
   </head>
 <body>
   <!-- Header -->
@@ -124,7 +124,7 @@
             <p>Laboratorium Computer Vision & Multimedia Universitas Nasional merupakan laboratorium yang memfokuskan diri pada bidang pembelajaran komputer dan pengembangan sistem informasi di Universitas Nasional. Adapun kegiatan yang dapat dilakukan di lingkup laboratorium Komputer Universitas Nasional meliputi kegiatan praktikum, penggunaan ruang laboratorium, penggunaan laboratorium untuk penelitian dan kerjasama penelitian, pengabdian masyarakat, praktik pembelajaran, diskusi, simulasi, pengerjaan skripsi, sertifikasi atau sejenisnya.</p>
           </div>
           <div class="main-button text-center mt-5">
-            <div class="scroll-to-section"><a href="">View More</a></div>
+            <div class="scroll-to-section"><a class="external" href="/about">View More</a></div>
           </div>
         </div>
         
@@ -196,39 +196,43 @@
           <h2 class="text-light text-center mb-3">Gallery</h2>
         </div>
         <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+          <img src="<?= base_url('assets/images/kegiatan/PLTI/3.jpg') ?>" alt="" class="img-thumbnail">
         </div>
         <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+          <img src="<?= base_url('assets/images/kegiatan/PLTI/1.jpg') ?>" alt="" class="img-thumbnail">
         </div>
         <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
+          <img src="<?= base_url('assets/images/kegiatan/test-aslab-19/1.jpg') ?>" alt="" class="img-thumbnail">
         </div>
       </div>
       <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="/index">View More</a></div>
+        <div class="scroll-to-section"><a class="external" href="/index">View More</a></div>
       </div>
     </div>
   </section>
   <!-- End Gallery -->
 
   <!-- Activity -->
-   <section class="section video" data-section="Activity">
+  <!-- <section class="section video" data-section="Activity">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <h2 class="text-light text-center mb-3">Activity</h2>
-        <div id="slider">
-	<div id="slide-holder">
-	  	<div class="slide"><img src="assets/images/courses-01.jpg" alt="" /></div>
-	    <div class="slide"><img src="assets/images/courses-02.jpg" alt="" /></div>
-	    <div class="slide"><img src="assets/images/courses-03.jpg" alt="" /></div>
-	</div>
-</div>
+          <h2 class="text-light text-center mb-3">Activity</h2>
+          <div id="slider">
+            <div id="slide-holder">
+              <div class="slide"><img src="assets/images/courses-01.jpg" alt="" /></div>
+              <div class="slide"><img src="assets/images/courses-02.jpg" alt="" /></div>
+              <div class="slide"><img src="assets/images/courses-03.jpg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
   <!-- End Activity -->
 
   <!-- Our Team -->
-  <section class="team-section">
+  <section class="section video team-section">
      <div class="container">
          <div class="row">
              <div class="section-title">
@@ -239,7 +243,7 @@
          <div class="row">
              <div class="team-items">
                   <div class="item">
-                      <img src="assets/images/dimas.jpg" alt="team" />
+                      <img src="<?= base_url('assets/images/teams/dimas.png') ?>" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Dimas Jayadi</h5>
@@ -254,7 +258,7 @@
                       </div>
                   </div>
                   <div class="item">
-                      <img src="assets/images/fikri.jpg" alt="team" />
+                      <img src="<?= base_url('assets/images/teams/fikri.png') ?>" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Muhammad Fikri</h5>
@@ -269,7 +273,7 @@
                       </div>
                   </div>
                   <div class="item">
-                      <img src="assets/images/team-3.jpg" alt="team" />
+                      <img src="<?= base_url('assets/images/teams/safira.png') ?>" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Safira Maulidina</h5>
@@ -284,7 +288,7 @@
                       </div>
                   </div>
                   <div class="item">
-                      <img src="assets/images/yolanda.jpg" alt="team" />
+                      <img src="<?= base_url('assets/images/teams/yolanda.png') ?>" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Yolanda Nur Octavia</h5>
@@ -301,11 +305,12 @@
              </div>
          </div>
      </div>
+  </section>
   <!-- END Our Team  -->
 
 
-<!-- Footer -->
-<br><?= $this->include('frontend/includes/footer') ?></br>
+  <!-- Footer -->
+  <?= $this->include('frontend/includes/footer') ?>
 
   <!-- Scripts -->
   <?= $this->include('frontend/includes/js') ?>
