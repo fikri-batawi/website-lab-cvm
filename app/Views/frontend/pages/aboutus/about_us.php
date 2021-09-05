@@ -41,7 +41,7 @@
             <h2>Structure Laboratorium Computer Vision & Multimedia </h2>
           </div>          
             <!-- Content -->
-            <img src="<?= base_url('assets/images/structure/~`nurhayati.jpg') ?>" alt="">
+            <img src="<?= base_url('assets/images/structure/nurhayati.jpg') ?>" alt="">
             <!-- Sub items -->               
             <ul>
                 <li>
