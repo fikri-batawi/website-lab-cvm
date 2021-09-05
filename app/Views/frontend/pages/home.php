@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <?= $this->include('frontend/includes/head') ?>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ourteam.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/activity.css">
   </head>
 <body>
   <!-- Header -->
@@ -204,7 +206,7 @@
         </div>
       </div>
       <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="#section2">View More</a></div>
+        <div class="scroll-to-section"><a href="/index">View More</a></div>
       </div>
     </div>
   </section>
@@ -215,47 +217,95 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-light text-center mb-3">Activity</h2>
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="main-button text-center mt-5">
-    </div>
+        <h2 class="text-light text-center mb-3">Activity</h2>
+        <div id="slider">
+	<div id="slide-holder">
+	  	<div class="slide"><img src="assets/images/courses-01.jpg" alt="" /></div>
+	    <div class="slide"><img src="assets/images/courses-02.jpg" alt="" /></div>
+	    <div class="slide"><img src="assets/images/courses-03.jpg" alt="" /></div>
+	</div>
+</div>
   <!-- End Activity -->
 
   <!-- Our Team -->
-   <section class="section video" data-section ="Activity">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-light text-center mb-3">Our Team</h2>
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/choose-us-image-01.png" alt="" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="main-button text-center mt-5">
-        <div class="scroll-to-section"><a href="#section2">View More</a></div>
-      </div>
-    </div>
-  <!-- Our Team  -->
+  <section class="team-section">
+     <div class="container">
+         <div class="row">
+             <div class="section-title">
+                 <h1>Our Team</h1>
+                 <p>introduce our team as follows.</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="team-items">
+                  <div class="item">
+                      <img src="assets/images/dimas.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Dimas Jayadi</h5>
+                               <p>Coordinator</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/fikri.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Muhammad Fikri</h5>
+                               <p>IT Support</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/team-3.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Safira Maulidina</h5>
+                               <p>Schedule</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/images/yolanda.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Yolanda Nur Octavia</h5>
+                               <p>Secretary</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+  <!-- END Our Team  -->
 
-  <!-- Footer -->
-  <?= $this->include('frontend/includes/footer') ?>
+
+<!-- Footer -->
+<br><?= $this->include('frontend/includes/footer') ?></br>
 
   <!-- Scripts -->
   <?= $this->include('frontend/includes/js') ?>
