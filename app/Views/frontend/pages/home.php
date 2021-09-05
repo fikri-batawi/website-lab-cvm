@@ -25,7 +25,7 @@
   <!-- End Hero -->
 
   <!-- Feature -->
-  <section class="features">
+  <!-- <section class="features">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-12">
@@ -72,7 +72,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- End Feature -->
 
   <!-- Visi Misi -->

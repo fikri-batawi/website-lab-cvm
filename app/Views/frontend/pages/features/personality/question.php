@@ -6,20 +6,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"      => 1,
-          "answer"  => "Mudah berfikir positif",
+          "id"          => 1,
+          "answer"      => "Mudah berfikir positif",
+          "personality" => "sanguinis",
         ],
         [
-          "id"      => 2,
-          "answer"  => "Menyukai tantangan",
+          "id"          => 2,
+          "answer"      => "Menyukai tantangan",
+          "personality" => "koleris",
         ],
         [
-          "id"      => 3,
-          "answer"  => "Mudah Berpikir negatif",
+          "id"          => 3,
+          "answer"      => "Mudah Berpikir negatif",
+          "personality" => "melankolis",
         ],
         [
-          "id"      => 4,
-          "answer"  => "Lemah lembut",
+          "id"          => 4,
+          "answer"      => "Lemah lembut",
+          "personality" => "plegmatis",
         ],
       ]
     ],
@@ -29,20 +33,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"      => 5,
-          "answer"  => "Banyak mendengar daripada berbicara",
+          "id"          => 5,
+          "answer"      => "Banyak mendengar daripada berbicara",
+          "personality" => "sanguinis",
         ],
         [
-          "id"      => 6,
-          "answer"  => "Meyakinkan orang lain dengan logika dan fakta",
+          "id"          => 6,
+          "answer"      => "Meyakinkan orang lain dengan logika dan fakta",
+          "personality" => "koleris",
         ],
         [
-          "id"      => 7,
-          "answer"  => "Mudah tersinggung dan sensitif",
+          "id"          => 7,
+          "answer"      => "Mudah tersinggung dan sensitif",
+          "personality" => "melankolis",
         ],
         [
-          "id"      => 8,
-          "answer"  => "Menghindari segala bentuk kekacauan",
+          "id"          => 8,
+          "answer"      => "Menghindari segala bentuk kekacauan",
+          "personality" => "plegmatis",
         ],
       ]
     ],
@@ -52,20 +60,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"        => 9,
-          "answer"    => "mudah bergaul",
+          "id"          => 9,
+          "answer"      => "mudah bergaul",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 10,
-          "answer"    => "Berkemauan tegas dan kuat",
+          "id"          => 10,
+          "answer"      => "Berkemauan tegas dan kuat",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 11,
-          "answer"    => "Penuh pikiran dan suka analisa",
+          "id"          => 11,
+          "answer"      => "Penuh pikiran dan suka analisa",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 12,
-          "answer"    => "Rendah hati"
+          "id"          => 12,
+          "answer"      => "Rendah hati",
+          "personality" => "plegmatis",
         ],
       ]
     ],
@@ -75,20 +87,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"        => 13,
-          "answer"    =>  "Penuh semangat",
+          "id"          => 13,
+          "answer"      =>  "Penuh semangat",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 14,
-          "answer"    => "Sangat memerlukan perubahan",
+          "id"          => 14,
+          "answer"      => "Sangat memerlukan perubahan",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 15,
-          "answer"    => "Selalu membuat rencana dan terjadwal",
+          "id"          => 15,
+          "answer"      => "Selalu membuat rencana dan terjadwal",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 16,
-          "answer"    => "Penurut dan toleran",
+          "id"          => 16,
+          "answer"      => "Penurut dan toleran",
+          "personality" => "plegmatis",
         ]
       ]
     ],
@@ -98,20 +114,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"        => 17,
-          "answer"    => "Penuh rasa ingin tahu",
+          "id"          => 17,
+          "answer"      => "Penuh rasa ingin tahu",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 18,
-          "answer"    => "Memiliki jiwa pemimpin",
+          "id"          => 18,
+          "answer"      => "Memiliki jiwa pemimpin",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 19,
-          "answer"    => "Perfeksionis dan idealis",
+          "id"          => 19,
+          "answer"      => "Perfeksionis dan idealis",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 20,
-          "answer"    => "Pemalu dan pendiam",
+          "id"          => 20,
+          "answer"      => "Pemalu dan pendiam",
+          "personality" => "plegmatis",
         ]
       ]
     ],
@@ -121,20 +141,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"        => 21,
-          "answer"    => "Selalu terlihat ceria",
+          "id"          => 21,
+          "answer"      => "Selalu terlihat ceria",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 22,
-          "answer"    => "Melakukan sesuatu berdasarkan tujuan",
+          "id"          => 22,
+          "answer"      => "Melakukan sesuatu berdasarkan tujuan",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 23,
-          "answer"    => "Detail terhadap hal kecil dan besar",
+          "id"          => 23,
+          "answer"      => "Detail terhadap hal kecil dan besar",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 24,
-          "answer"    => "Penakut",
+          "id"          => 24,
+          "answer"      => "Penakut",
+          "personality" => "plegmatis",
         ],
       ]
     ],
@@ -144,20 +168,24 @@
       "type_question" => "check",
       "answers"       => [
         [
-          "id"        => 25,
-          "answer"    => "Senang melihat orang lain terhibur",
+          "id"          => 25,
+          "answer"      => "Senang melihat orang lain terhibur",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 26,
-          "answer"    => "Tidak bergantung orang lain",
+          "id"          => 26,
+          "answer"      => "Tidak bergantung orang lain",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 27,
-          "answer"    => "Suka memberikan kritikan",
+          "id"          => 27,
+          "answer"      => "Suka memberikan kritikan",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 28,
-          "answer"    => "Sabar dan ramah",
+          "id"          => 28,
+          "answer"      => "Sabar dan ramah",
+          "personality" => "plegmatis",
         ],
       ]
     ],        
@@ -167,12 +195,14 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 29,
-          "answer"    => "Cenderung pelupa",
+          "id"          => 29,
+          "answer"      => "Cenderung pelupa",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 30,
-          "answer"    => "Cenderung keras kepala",
+          "id"          => 30,
+          "answer"      => "Cenderung keras kepala",
+          "personality" => "koleris",
         ],
       ]
     ],
@@ -182,12 +212,14 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 31,
-          "answer"    => "Sering kurang tertata",
+          "id"          => 31,
+          "answer"      => "Sering kurang tertata",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 32,
-          "answer"    => "Mudah curiga",
+          "id"          => 32,
+          "answer"      => "Mudah curiga",
+          "personality" => "melankolis",
         ],
       ]  
     ],               
@@ -197,12 +229,14 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 33,
-          "answer"    => "Kompetitif",
+          "id"          => 33,
+          "answer"      => "Kompetitif",
+          "personality" => "sanguinis",
         ],
         [
-          "id"        => 34,
-          "answer"    => "pasif",
+          "id"          => 34,
+          "answer"      => "pasif",
+          "personality" => "plegmatis",
         ],
       ]
     ],   
@@ -212,12 +246,14 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 35,
-          "answer"    => "Kreatifits yang tinggi",
+          "id"          => 35,
+          "answer"      => "Kreatifits yang tinggi",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 34,
-          "answer"    => "Ketelitian",
+          "id"          => 34,
+          "answer"      => "Ketelitian",
+          "personality" => "melankolis",
         ],
       ]
     ],
@@ -227,27 +263,31 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 35,
-          "answer"    => "Konsisten dengan tujuan",
+          "id"          => 35,
+          "answer"      => "Konsisten dengan tujuan",
+          "personality" => "koleris",
         ],
         [
-          "id"        => 36,
-          "answer"    => "Cenderung tidak berambisi",
+          "id"          => 36,
+          "answer"      => "Cenderung tidak berambisi",
+          "personality" => "plegmatis",
         ],
       ]
     ],                           
     [
       "id"            => 13,
-      "question"      => "Dalam menanggapi sesuatu, saya sangat...",
+      "question"      => "Dalam mengambil keputusan saya...",
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"        => 37,
-          "answer"    => "Sangat logis dan analitis dalam berfikir"
+          "id"          => 37,
+          "answer"      => "Sangat logis dan analitis dalam berfikir",
+          "personality" => "melankolis",
         ],
         [
-          "id"        => 38,
-          "answer"    => "Mudah setuju dengan keputusan atau pendapat orang lain"
+          "id"          => 38,
+          "answer"      => "Mudah setuju dengan keputusan atau pendapat orang lain",
+          "personality" => "plegmatis",
         ],
       ]
     ],                      
@@ -257,6 +297,7 @@
 <html lang="en">
   <head>
     <?= $this->include('frontend/includes/head') ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
 <body>
@@ -275,7 +316,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <form action="">
+          <form action="/personality/result" method="POST">
             <!-- Loop Question -->
             <?php foreach($questions as $question) : ?>
               <div class="mb-3">
@@ -283,17 +324,19 @@
                 <!-- Loop answer -->
                 <?php if($question['type_question'] == 'check') : ?>
                   <?php foreach($question['answers'] as $answer) : ?>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="1" id="<?= $answer['id'] ?>">
-                      <label class="form-check-label text-light" for="<?= $answer['id'] ?>">
-                        <?= $answer['answer'] ?>
-                      </label>
-                    </div>
+                    <fieldset>
+                      <div class="form-check">
+                        <label class="form-check-label text-light" for="<?= $answer['id'] ?>">
+                          <input class="form-check-input" type="checkbox" name="answer_questions[<?= $question['id'] ?>][]" value="<?= $answer['personality'] ?>" id="<?= $answer['id'] ?>">
+                          <?= $answer['answer'] ?>
+                        </label>
+                      </div>
+                    </fieldset>
                   <?php endforeach; ?>
                 <?php elseif($question['type_question'] == 'radio') : ?>
                   <?php foreach($question['answers'] as $answer) : ?>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="<?= $question['id'] ?>" id="<?= $answer['id'] ?>">
+                      <input class="form-check-input" type="radio" name="answer_questions[<?= $question['id'] ?>][]" id="<?= $answer['id'] ?>" value="<?= $answer['personality'] ?>" >
                       <label class="form-check-label text-light" for="<?= $answer['id'] ?>">
                         <?= $answer['answer'] ?>
                       </label>
@@ -313,7 +356,19 @@
   <!-- Footer -->
   <?= $this->include('frontend/includes/footer') ?>
 
-<!-- Scripts -->
-<?= $this->include('frontend/includes/js') ?>
+  <!-- Scripts -->
+  <?= $this->include('frontend/includes/js') ?>
+
+  <script>
+    jQuery(function($) {
+      var requiredCheckboxes = $(':checkbox[required]');
+      requiredCheckboxes.on('change', function(e) {
+        var checkboxGroup = requiredCheckboxes.filter('[name="' + $(this).attr('name') + '"]');
+        var isChecked = checkboxGroup.is(':checked');
+        checkboxGroup.prop('required', !isChecked);
+      });
+      requiredCheckboxes.trigger('change');
+    });
+  </script>
 </body>
 </html>
