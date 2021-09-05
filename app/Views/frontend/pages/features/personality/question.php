@@ -251,7 +251,7 @@
           "personality" => "koleris",
         ],
         [
-          "id"          => 34,
+          "id"          => 36,
           "answer"      => "Ketelitian",
           "personality" => "melankolis",
         ],
@@ -263,12 +263,12 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"          => 35,
+          "id"          => 37,
           "answer"      => "Konsisten dengan tujuan",
           "personality" => "koleris",
         ],
         [
-          "id"          => 36,
+          "id"          => 38,
           "answer"      => "Cenderung tidak berambisi",
           "personality" => "plegmatis",
         ],
@@ -280,12 +280,12 @@
       "type_question" => "radio",
       "answers"       => [
         [
-          "id"          => 37,
+          "id"          => 39,
           "answer"      => "Sangat logis dan analitis dalam berfikir",
           "personality" => "melankolis",
         ],
         [
-          "id"          => 38,
+          "id"          => 40,
           "answer"      => "Mudah setuju dengan keputusan atau pendapat orang lain",
           "personality" => "plegmatis",
         ],
@@ -327,7 +327,7 @@
                     <fieldset>
                       <div class="form-check">
                         <label class="form-check-label text-light" for="<?= $answer['id'] ?>">
-                          <input class="form-check-input" type="checkbox" name="answer_questions[<?= $question['id'] ?>][]" value="<?= $answer['personality'] ?>" id="<?= $answer['id'] ?>">
+                          <input class="form-check-input" type="checkbox" name="answer_questions[<?= $question['id'] ?>][]" value="<?= $answer['personality'] ?>" id="<?= $answer['id'] ?>" required>
                           <?= $answer['answer'] ?>
                         </label>
                       </div>
@@ -336,7 +336,7 @@
                 <?php elseif($question['type_question'] == 'radio') : ?>
                   <?php foreach($question['answers'] as $answer) : ?>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="answer_questions[<?= $question['id'] ?>][]" id="<?= $answer['id'] ?>" value="<?= $answer['personality'] ?>" >
+                      <input class="form-check-input" type="radio" name="answer_questions[<?= $question['id'] ?>][]" id="<?= $answer['id'] ?>" value="<?= $answer['personality'] ?>" required>
                       <label class="form-check-label text-light" for="<?= $answer['id'] ?>">
                         <?= $answer['answer'] ?>
                       </label>
