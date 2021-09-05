@@ -33,6 +33,13 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'frontend\HomeController::index');
+$routes->group('personality', function($routes){
+	$routes->get('/', 'frontend\PersonalityTestController::index');
+	$routes->get('question', 'frontend\PersonalityTestController::getQuestion');
+	$routes->add('result','frontend\PersonalityTestController::postQuestion');
+});
+$routes->get('/index', 'frontend\galleryController::index');
+$routes->get('/about','frontend\AboutUsController::about');
 
 /*
  * --------------------------------------------------------------------

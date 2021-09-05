@@ -79,6 +79,18 @@ p {
     display: inline-block;
     outline: none;
 }
+.main-button button {
+    background-color: #f5a425;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    border:none;
+}
 
 a.menu-link { display: none; }
 

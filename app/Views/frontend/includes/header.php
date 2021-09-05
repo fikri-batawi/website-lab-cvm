@@ -1,23 +1,18 @@
 <header class="main-header clearfix" role="header">
   <div class="logo">
-    <a href="#"><em>Grad</em> School</a>
+    <a href="<?= base_url('/') ?>"><em>CVM</em></a>
   </div>
   <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-  <nav id="menu" class="main-nav" role="navigation">
+  <nav id="menu" class="main-nav">
     <ul class="main-menu">
-      <li><a href="#section1">Home</a></li>
-      <li class="has-submenu"><a href="#section2">About Us</a>
+      <li><a class="external" href="<?= base_url('/') ?>">Home</a></li>
+      <li><a class="external" href="/index">Gallery</a></li>
+      <li class="has-submenu"><a href="#">Features</a>
         <ul class="sub-menu">
-          <li><a href="#section2">Who we are?</a></li>
-          <li><a href="#section3">What we do?</a></li>
-          <li><a href="#section3">How it works?</a></li>
-          <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a></li>
+          <li><a class="external" href="<?= base_url('/personality') ?>">Personality Test</a></li>
         </ul>
       </li>
-      <li><a href="#section4">Courses</a></li>
-      <!-- <li><a href="#section5">Video</a></li> -->
-      <li><a href="#section6">Contact</a></li>
-      <li><a href="https://templatemo.com" class="external">External</a></li>
+      <li><a class="external" href="<?= base_url('/about') ?>">About Us</a></li>
     </ul>
   </nav>
 </header>

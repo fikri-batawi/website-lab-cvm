@@ -1,0 +1,129 @@
+.zigzag-timeline__item {
+  /* Used to position the milestone */
+  position: relative;
+
+  /* Border */
+  border-bottom: 1px solid #71717A;
+
+  /* Take full width */
+  width: 100%;
+  padding:20px;
+}
+.zigzag-timeline__milestone {
+  /* Absolute position */
+  position: absolute;    
+  top: 50%;
+
+  /* Circle it */
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+
+  /* Misc */
+  background: #71717A;
+}
+/* Styles for even items */
+.zigzag-timeline__item:nth-child(2n) {
+  border-left: 1px solid #71717A;
+}
+.zigzag-timeline__item:nth-child(2n) .zigzag-timeline__milestone {
+  left: 0;
+  transform: translate(-50%, -50%);    
+}
+/* Styles for odd items */
+.zigzag-timeline__item:nth-child(2n + 1) {
+  border-right: 1px solid #71717A;
+}
+.zigzag-timeline__item:nth-child(2n + 1) .zigzag-timeline__milestone {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+/*Style for about lab*/
+.container:first-letter {
+  /* Display at the left */
+  float: left;
+  line-height: 1;
+
+  /* Spacing */
+  margin: 0 8px 0 0;
+  padding: 0 8px;
+
+  /* Optional */
+  font-size: 64px;
+  font-weight: 700;
+}  
+
+.tree-diagram ul {
+  display: flex;
+  position: relative;
+
+  /* Reset */
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0.5rem 0rem 0.5rem;
+}
+
+.tree-diagram ul ul::before {
+  border-right: 1px solid rgb(255, 255, 255);
+  content: '';
+  
+  /* Position */
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  /* Size */
+  height: 1rem;
+  width: 50%;
+}
+
+.tree-diagram li {
+  padding: 1rem 0.5rem 0rem 0.5rem;
+  position: relative;
+
+  /* Center the content */
+  align-items: center;
+  display: flex;    
+  flex-direction: column;
+}
+
+.tree-diagram li::before {
+  border-right: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  content: '';    
+
+  /* Position */
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  /* Size */
+  height: 1rem;
+  width: 50%;
+}
+
+/*Style for Structure Lab */
+.tree-diagram li::after {
+  border-top: 1px solid rgb(255, 255, 255);
+  content: '';
+
+  /* Position */
+  position:absolute;
+  top: 0;
+  right: 0;
+  
+  /* Size */
+  width: 50%;
+}
+
+.tree-diagram li:first-child::before,
+.tree-diagram li:last-child::after {
+  /* Remove the top of border from the first and last items */
+  border-top: none;
+}
+
+/* Add a root item if you want */
+li.tree-diagram__root::before {
+  border-right: none;
+}
