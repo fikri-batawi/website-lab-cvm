@@ -12,6 +12,11 @@
           <li><a class="external" href="<?= base_url('/personality') ?>">Personality Test</a></li>
         </ul>
       </li>
+      <li class="has-submenu"><a href="#">Product</a>
+        <ul class="sub-menu">
+          <li><a class="external" href="<?= base_url('/product/personality') ?>">Personality</a></li>
+        </ul>
+      </li>
       <li><a class="external" href="<?= base_url('/about') ?>">About Us</a></li>
     </ul>
   </nav>

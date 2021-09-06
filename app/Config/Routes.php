@@ -38,6 +38,9 @@ $routes->group('personality', function($routes){
 	$routes->get('question', 'frontend\PersonalityTestController::getQuestion');
 	$routes->add('result','frontend\PersonalityTestController::postQuestion');
 });
+$routes->group('product', function($routes){
+	$routes->get('personality', 'frontend\ProductController::personality');
+});
 $routes->get('/index', 'frontend\galleryController::index');
 $routes->get('/about','frontend\AboutUsController::about');
 
